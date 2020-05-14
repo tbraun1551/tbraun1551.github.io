@@ -1,0 +1,269 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-font-color: #b5c0cd;
+    --primary-font-color: #aaa;
+    --secondary-font-color: #525252;
+    --highlight-font-color: #fff;
+    --background-color: #222;
+    --yahoo-purple: #9239ff;
+    --blur-bg-color: rgba(10, 15, 15, 0.75);
+    --blur-border-color: rgba(255, 255, 255, 0.25);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-font-color: #5c6977;
+    --primary-font-color: #5c6977;
+    --secondary-font-color: #a4a4a4;
+    --highlight-font-color: #28292e;
+    --background-color: #e5eeee;
+    --yahoo-purple: #5f01d1;
+    --blur-bg-color: rgba(230, 240, 245, 0.5);
+    --blur-border-color: rgba(0, 0, 0, 0.25);
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13pt;
+  background-color: var(--background-color);
+  color: var(--primary-font-color);
+  padding-bottom: 16pt;
+}
+
+a, a:hover, a:active {
+  color: #C5CFDB;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: rgba(130, 130, 130, 0.1);
+  border-radius: 2pt;
+}
+
+.footer {
+  font-size: 11pt;
+  text-align: center;
+  border-radius: 8pt;
+  color: var(--primary-font-color);
+  background-color: var(--blur-bg-color);
+  padding: 8pt;
+  left: 50%;
+  width: 240px;
+  box-shadow: 0pt 2pt 4pt 0pt rgba(0, 0, 0, 0.20);
+}
+
+.section-title {
+  padding-top: 16pt;
+}
+
+.content {
+  padding-top: 24pt;
+  padding-bottom: 24pt;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 18pt;
+}
+
+.app-icon {
+  border-radius: 25% / 25%;
+  margin-bottom: 10px
+}
+
+.company-logo {
+  border-radius: 50%;
+  scale: 50%;
+  margin-bottom: 12px;
+}
+
+.app-description {
+  margin: 4px;
+  font-size: 13pt;
+}
+
+.title {
+  font-size: 30pt;
+  font-weight: 800;
+  color: var(--title-font-color);
+}
+
+.subtitle {
+  font-size: 12pt;
+  color: var(--secondary-font-color);
+}
+
+.name {
+  color: var(--highlight-font-color);
+}
+
+.profile-pic {
+  border-radius: 25%;
+  margin: 8pt;
+}
+
+.disclaimer {
+  color: #999;
+  font-size: 8pt;
+}
+
+/* Text Colours */
+
+.red {
+  color: #B04C58;
+}
+
+.string {
+  color: #95B47B;
+}
+
+.highlight {
+  color: var(--highlight-font-color);
+  font-weight: 500;
+}
+
+.sigma {
+  color: #2BB99D;
+}
+
+.splunk {
+  color: #E6017E;
+}
+
+.waterloo {
+  color: #E4B429;
+}
+
+.oath {
+  color: #006CB6;
+}
+
+.yahoo {
+  color: var(--yahoo-purple);
+}
+
+.blurry {
+  color: #802ce6;
+}
+
+.confetti-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  overflow: hidden;
+  position: fixed;
+  display:block;
+}
+
+/* Social Buttons */
+
+.btn {
+  align-content: center;
+  border-radius: 6pt;
+  transition: all .15s ease-in-out;
+}
+
+.btn:hover {
+  border-radius: 6pt;
+}
+
+.btn-block {
+  margin: 4pt;
+  box-shadow: 0pt 1pt 2pt 0pt rgba(0, 0, 0, 0.25);
+}
+
+.btn-block:hover {
+  box-shadow: 0pt 2pt 4pt 0pt rgba(0, 0, 0, 0.25);
+  transform: scale(1.10);
+}
+
+.btn-resume {
+  border-radius: 6pt;
+  line-height: 28px;
+  color: #fff;
+  background-color: #29b69b;
+}
+
+.btn-resume:hover {
+  color: #fff;
+  background-color: #2fc9ad;
+}
+
+.btn-github {
+  background-color: #6e5494;
+}
+
+.btn-github:hover {
+  background-color: #886bb3;
+}
+
+.btn-twitter {
+  background-color: #55acee;
+}
+
+.btn-twitter:hover {
+  background-color: #55b8ee;
+}
+
+.btn-email {
+  background-color: #ffa767;
+}
+
+.btn-email:hover {
+  background-color: #ffbb67;
+}
+
+.btn-dribbble {
+  background-color: #ea4c89;
+}
+
+.btn-dribbble:hover {
+  background-color: #ff6ea6;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+}
+
+.btn-linkedin:hover {
+  background-color: #1e9ede;
+}
+
+.btn-appstore > :last-child {
+  display: none;
+}
+
+.btn-appstore:hover > :first-child {
+  display: none;
+}
+
+.btn-appstore:hover > :last-child  {
+  display: inline;
+}
+
+.btn-instagram {
+  color: #fff;
+  background-color: #fb3958;
+  border-color: #fb3958;
+}
+
+.trademark-footer {
+  color: #aaa;
+  padding:2pt;
+  font-size: 10pt;
+  font-style: italic;
+  text-align: center;
+}
