@@ -104,6 +104,10 @@ a:hover {
   color: var(--secondary-font-color);
 }
 
+.subsubtitle {
+  font-size: 13pt;
+}
+
 .name {
   color: var(--highlight-font-color);
 }
