@@ -137,10 +137,6 @@ a:hover {
   font-weight: 500;
 }
 
-.sigma {
-  color: #2BB99D;
-}
-
 .splunk {
   color: #E6017E;
 }
@@ -149,10 +145,20 @@ a:hover {
   color: #3e1f69;
 }
 
+.rebel {
+  color: #4885fd;
+}
+
 .oath {
   color: #006CB6;
 }
 
+.thinapp {
+  color: #3ad7ff;
+}
+.waytostay {
+  color: #35c9b7;
+}
 .yahoo {
   color: var(--yahoo-purple);
 }
