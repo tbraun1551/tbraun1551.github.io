@@ -1,6 +1,0 @@
-name: Thomas Braun
-markdown: kramdown
-
-permalink: /blog/:year/:month/:day/:title
-
-theme: jekyll-theme-cayman
