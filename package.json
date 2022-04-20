@@ -1,0 +1,23 @@
+{
+  "name": "tbraun.github.io",
+  "version": "1.0.0",
+  "description": "Thomas Braun's Personal Website",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^9.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbraun1551/tbraun.github.io.git"
+  },
+  "author": "Thomas Braun <tbraun1551@gmail.com> (tsbraun.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbraun1551/tbraun.github.io/issues"
+  },
+  "homepage": "https://github.com/tbraun1551/tbraun.github.io#readme"
+}
