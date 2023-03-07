@@ -4,7 +4,7 @@
   "description": "Thomas Braun's Personal Website",
   "main": "index.js",
   "dependencies": {
-    "firebase": "^9.1.2"
+    "firebase": "^9.17.2"
   },
   "devDependencies": {},
   "scripts": {
